@@ -1,7 +1,10 @@
-## My First Progressive Web App
-#### Created this app with help from Google Codelab
-**Link to codelab:** 
-https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
+## Weather PWA
+
+#### This app is a derivative of the app from Google the following Codelab:
+[Link to codelab](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
+
+#### Workshop Guide (Wiki)
+[Guide](https://github.com/ShukujiNeel13/my-first-pwapp/wiki/Guide)
 
 #### Notes:
 - I love to hear other perspectives and get feedback :)
@@ -30,6 +33,3 @@ https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
   Tough times never last, but tough people do >:)
 
 - All credits to Google and all people involved in producing and serving this Codelab :)
-
-#### Guide (Wiki)
-[Guide](https://github.com/ShukujiNeel13/my-first-pwapp/wiki/Guide)

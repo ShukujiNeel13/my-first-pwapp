@@ -1,8 +1,7 @@
 {
   "name": "my-first-pwapp",
   "version": "1.0.0",
-  "description": "Follow through of Codelab: Your First PWAPP",
-  "homepage": "https://codelabs.developers.google.com/codelabs/your-first-pwapp/",
+  "description": "A PWA to display weather forecast for selected cities.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -17,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/your-first-pwapp.git"
+    "url": "https://github.com/ShukujiNeel13/my-first-pwapp.git"
   },
   "bugs": {
-    "url": "https://github.com/googlecodelabs/your-first-pwapp/issues"
+    "url": "https://github.com/ShukujiNeel13/my-first-pwapp.git/issues"
   },
   "license": "Apache2",
   "keywords": [
