@@ -108,6 +108,6 @@ self.addEventListener('fetch', (evt) => {
             });
       })
   );
-  // TODO: Removed the check for request.mode == navigation,
+  // TODO: Removed the check for request.mode == navigate,
   // as want the service worker to handle all requests  
 });
