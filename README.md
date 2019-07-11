@@ -31,5 +31,5 @@ https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
 
 - All credits to Google and all people involved in producing and serving this Codelab :)
 
-#### Walkthrough
-[Guide]()
+#### Guide (Wiki)
+[Guide](https://github.com/ShukujiNeel13/my-first-pwapp/wiki/Guide)
