@@ -22,10 +22,10 @@ const express = require('express');
 const fetch = require('node-fetch');
 const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
 
-// CODELAB: Change this to add a delay (ms) before the server responds.
+// TODO: Change this to add a delay (ms) before the server responds.
 const FORECAST_DELAY = 1000;
 
-// CODELAB: If running locally, set your Dark Sky API key here
+// TODO: If running locally, set your Dark Sky API key here
 const API_KEY = '2019b8833fc85b9ed778b6cbef3fabdb';
 const BASE_URL = `https://api.darksky.net/forecast`;
 

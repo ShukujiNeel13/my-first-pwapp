@@ -17,13 +17,12 @@
  */
 'use strict';
 
-// CODELAB: Update cache names any time any of the cached files change.
+// TODO: REMEMBER: Update cache names any time any of the cached files change.
 
 const CACHE_NAME = 'static-cache-v5'; 
 const DATA_CACHE_NAME = 'data-cache-v1';
 
-
-// CODELAB: Add list of files to cache here.
+// TODO: Add list of files to cache here.
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
@@ -47,12 +46,12 @@ const FILES_TO_CACHE = [
     '/images/thunderstorm.svg',
     '/images/tornado.svg',
     '/images/wind.svg',
-
 ];
 
 self.addEventListener('install', (evt) => {
   console.log('[ServiceWorker] Install');
-  // CODELAB: Precache static resources here.
+
+  // TODO: Precache static resources here.
   evt.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('[ServiceWorker] Pre-caching offline page');
@@ -64,7 +63,8 @@ self.addEventListener('install', (evt) => {
 
 self.addEventListener('activate', (evt) => {
   console.log('[ServiceWorker] Activate');
-  // CODELAB: Remove previous cached data from disk.
+
+  // TODO: Remove previous cached data from disk.
   evt.waitUntil(
     caches.keys().then((keyList) => {
       return Promise.all(keyList.map((key) => {
@@ -81,7 +81,7 @@ self.addEventListener('activate', (evt) => {
 
 self.addEventListener('fetch', (evt) => {
   console.log('[ServiceWorker] Fetch', evt.request.url);
-  // CODELAB: Add fetch event handler here.
+  // TODO: Add fetch event handler here.
   if (evt.request.url.includes('/forecast/')) {
     console.log('[Service Worker] Fetch (data)', evt.request.url);
     evt.respondWith(
@@ -108,6 +108,6 @@ self.addEventListener('fetch', (evt) => {
             });
       })
   );
-  // CODELAB: Removed the check for request.mode == navigation,
+  // TODO: Removed the check for request.mode == navigation,
   // as want the service worker to handle all requests  
 });
